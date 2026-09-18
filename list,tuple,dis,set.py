@@ -174,6 +174,13 @@ units = num%10
 total = tens+units
 print(total)
 
+#problem 21
+#atleast one even number
+#even number: if the number is divisible by 2 without any remainder
+n1 = int(input())
+n2 = int(input())
+print(n1%2==0 or n2%2==0)
+
 
 # dictionary in python
 #dictionary is a collection of key-value pairs 
